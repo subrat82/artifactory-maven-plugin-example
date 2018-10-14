@@ -16,7 +16,7 @@
          
     <distributionManagement>
         <snapshotRepository>
-            <id>MyJFrog</id>
+            <id>artifactory-plugin-properties</id>
             <name>MyJFrogArtifactory</name>
             <url>http://ec2-18-232-159-69.compute-1.amazonaws.com:8081/artifactory/libs-snapshot-local</url>
         </snapshotRepository>
