@@ -13,6 +13,14 @@
         <module>multi2</module>
         <module>multi3</module>
     </modules>
+         
+    <distributionManagement>
+        <snapshotRepository>
+            <id>MyJFrog</id>
+            <name>MyJFrogArtifactory</name>
+            <url>http://ec2-18-232-159-69.compute-1.amazonaws.com:8081/artifactory/libs-snapshot-local</url>
+        </snapshotRepository>
+    </distributionManagement>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
