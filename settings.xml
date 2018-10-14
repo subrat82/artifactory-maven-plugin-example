@@ -11,7 +11,7 @@
     
     <servers>
     <server>
-        <id>artifactory-plugin-properties</id>
+        <id>snapshot</id>
         <username>${user}</username>
         <password>${password}</password>
     </server>
