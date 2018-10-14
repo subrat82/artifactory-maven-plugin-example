@@ -11,7 +11,7 @@
     
     <servers>
     <server>
-        <id>dev-repo</id>
+        <id>artifactory-plugin-properties</id>
         <username>user</username>
         <password>password</password>
     </server>
