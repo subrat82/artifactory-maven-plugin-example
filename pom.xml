@@ -14,19 +14,14 @@
         <module>multi3</module>
     </modules>
          
-     
+   
   <distributionManagement>
-    <repository>
-        <id>central</id>
-        <name>ip-172-31-89-162.ec2.internal-releases</name>
-        <url>http://ec2-34-226-147-221.compute-1.amazonaws.com:8081/artifactory/libs-release-local</url>
-    </repository>
-    <snapshotRepository>
-        <id>snapshots</id>
-        <name>ip-172-31-89-162.ec2.internal-snapshots</name>
-        <url>http://ec2-34-226-147-221.compute-1.amazonaws.com:8081/artifactory/libs-release-local</url>
-    </snapshotRepository>
-</distributionManagement>
+        <snapshotRepository>
+            <id>snapshot</id>
+            <name>libs-snapshot-local</name>
+            <url>http://ec2-34-226-147-221.compute-1.amazonaws.com:8081/artifactory/libs-snapshot-local</url>
+        </snapshotRepository>
+    </distributionManagement>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
