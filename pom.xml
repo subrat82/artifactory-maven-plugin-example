@@ -134,7 +134,6 @@
             </plugin>
         </plugins>
     </build>
-
 <repositories>
         <repository>
             <snapshots>
@@ -145,8 +144,6 @@
             <url>http://jcenter.bintray.com</url>
         </repository>
     </repositories>
-	
-	
 	<pluginRepositories>
         <pluginRepository>
             <snapshots>
