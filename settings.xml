@@ -12,7 +12,7 @@
             <enabled>false</enabled>
           </snapshots>
           <id>central</id>
-          <name>libs-release</name>
+          <name>libs-release-local</name>
           <url>http://ec2-34-226-147-221.compute-1.amazonaws.com:8081/artifactory/libs-release-local</url>
         </repository>
         <repository>
@@ -20,7 +20,7 @@
             <enabled>true</enabled>
           </snapshots>
           <id>snapshots</id>
-          <name>libs-snapshot</name>
+          <name>libs-snapshot-local</name>
           <url>http://ec2-34-226-147-221.compute-1.amazonaws.com:8081/artifactory/libs-snapshot-local</url>
         </repository>
       </repositories>
