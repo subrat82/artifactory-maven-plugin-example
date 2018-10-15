@@ -41,27 +41,6 @@
     </dependencies>
 
     <build>
-	    
-	    <finalName>maven-properties-filtering</finalName>
-        <filters>
-            <!--
-                Ensures that the config.properties file is always loaded from the
-		        configuration directory of the active Maven profile. 
-            -->
-            <filter>profiles/${build.profile.id}/environment.properties</filter>
-        </filters>
-        <resources>
-            <!--
-                Placeholders that are found from the files located in the configured resource
-                directories are replaced with the property values found from the profile
-                specific configuration file.
-            -->
-            <resource>
-                <filtering>true</filtering>
-                <directory>src/main/resources</directory>
-            </resource>
-        </resources>
-	    
         <pluginManagement>
             <plugins>
                 <plugin>
