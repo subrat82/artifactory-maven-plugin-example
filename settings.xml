@@ -42,6 +42,16 @@
       </pluginRepositories>
       <id>artifactory</id>
     </profile>
+        
+        <profile>
+        <id>dev</id>
+                <activation>
+                <activeByDefault>true</activeByDefault>
+                </activation>
+                <properties>
+                <build.profile.id>dev</build.profile.id>
+                </properties>
+    </profile>
   </profiles>
  
 
